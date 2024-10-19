@@ -1,7 +1,29 @@
-
 ###############################################
 # Author: Amr Ali 
-# Date : 18/10
+# Date: 18/10
+# Version: 1.0
+###############################################
+# Description: 
+# This script reads a color image, creates three copies of it, and manipulates each copy 
+# to display fully saturated versions of the green, red, and blue channels respectively. 
+# The original image and the three modified images are then displayed side by side 
+# in a 2x2 grid using Matplotlib.
+#
+# Usage: 
+# - Ensure that the required image file is available in the specified path.
+# - Run the script using a Python environment with OpenCV and Matplotlib installed.
+#
+# Dependencies: 
+# - Python 3.x
+# - OpenCV (cv2)
+# - Matplotlib (for displaying images)
+#
+# Input: 
+# - A color image file (e.g., 'ceramic-pro-007-768x512.jpg')
+#
+# Output: 
+# - Displays the original image and three versions of the image with saturated green, red, 
+#   and blue channels in a 2x2 grid.
 ###############################################
 
 import numpy as np
